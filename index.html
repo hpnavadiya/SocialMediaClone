@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialBook - HarshNavdiya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c6a6556732.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="images/logo.png" alt="logo" class="logo" srcset=""></a>
+            <ul>
+                <li><img src="images/notification.png" alt="notification" srcset=""></li>
+                <li><img src="images/inbox.png" alt="inbox" srcset=""></li>
+                <li><img src="images/video.png" alt="video" srcset=""></li>
+
+            </ul>
+
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="Search" srcset="">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/profile-pic.png" alt="Profile Pic">
+            </div>
+        </div>
+
+        <!-- Setting menu  -->
+        <div class="setting-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="profile-pic" srcset="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="feedback" srcset="">
+                    <div>
+                        <p>Give feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="setting-link">
+                    <img src="images/setting.png" class="setting-icon" alt="setting">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/help.png" class="setting-icon" alt="help">
+                    <a href="#">Help & support <img src="images/arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/display.png" class="setting-icon" alt="display">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" alt="arrow" width="10px"></a>
+                </div>
+                <div class="setting-link">
+                    <img src="images/logout.png" class="setting-icon" alt="logout">
+                    <a href="#">Logout <img src="images/arrow.png" alt="arrow" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="left-side-bar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png" alt="News"> Latest News</a>
+                <a href="#"><img src="images/friends.png" alt="Friends"> Friends</a>
+                <a href="#"><img src="images/group.png" alt="Group"> Groups</a>
+                <a href="#"><img src="images/marketplace.png" alt="Marketplace"> Marketplace</a>
+                <a href="#"><img src="images/watch.png" alt="Watch"> Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcut-link">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="shortcut-1"> Web Developers</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="shortcut-2"> Web Design Course</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="shortcut-3"> Full-Stack Development</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="shortcut-4"> Website Experts</a>
+
+            </div>
+        </div>
+
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="upload" srcset="">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="member-1" srcset="">
+                    <p>Alison</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="member-2" srcset="">
+                    <p>Jackson</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="member-3" srcset="">
+                    <p>Samona</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="member-4" srcset="">
+                    <p>John</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="profile-pic" srcset="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public <i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea placeholder="What you want to post...?" rows="3"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="video"> Like Video</a>
+                        <a href="#"><img src="images/photo.png" alt="photo"> Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="feeling"> Feling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="profile-pic" srcset="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24, 2021, 14:45 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Your source for <span> @BreakingNews </span>, photos, and videos about New York, sports, business,
+                    entertainment,
+                    opinion, real estate, <a href="#"> #culture </a>, <a href="#"> #fashion</a>, and more
+                </p>
+
+                <img src="images/feed-image-1.png" class="post-img" alt="feed-image-1">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="like-blue"> 120</div>
+                        <div><img src="images/comments.png" alt="comments"> 20</div>
+                        <div><img src="images/share.png" alt="share"> 45</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png" alt="profile-pic"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-3.png" alt="member-3" srcset="">
+                        <div>
+                            <p>Nicholson</p>
+                            <span>July 24, 2021, 16:45 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Like and share this video with friends, tag <span> @BreakingNews </span> facebook
+                    page on your post. Ask your doubts in comment about<a href="#"> #culture </a>, <a href="#">
+                        #fashion</a>, and more
+                </p>
+
+                <img src="images/feed-image-2.png" class="post-img" alt="feed-image-2">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="like"> 220</div>
+                        <div><img src="images/comments.png" alt="comments"> 50</div>
+                        <div><img src="images/share.png" alt="share"> 15</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-3.png" alt="member-3"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-4.png" alt="member-4" srcset="">
+                        <div>
+                            <p>John</p>
+                            <span>June 4, 2021, 19:45 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Like and share this video with friends, tag <span> @BreakingNews </span> facebook
+                    page on your post. Ask your doubts in comment about<a href="#"> #culture </a>, <a href="#">
+                        #fashion</a>, and more
+                </p>
+
+                <img src="images/feed-image-3.png" class="post-img" alt="feed-image-3">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="like"> 520</div>
+                        <div><img src="images/comments.png" alt="comments"> 150</div>
+                        <div><img src="images/share.png" alt="share"> 45</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-4.png" alt="profile-pic"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-5.png" alt="member-5" srcset="">
+                        <div>
+                            <p>Doan</p>
+                            <span>July 4, 2021, 19:05 PM</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Like and share this video with friends, tag <span> @BreakingNews </span> facebook
+                    page on your post. Ask your doubts in comment about<a href="#"> #culture </a>, <a href="#">
+                        #fashion</a>, and more
+                </p>
+
+                <img src="images/feed-image-4.png" class="post-img" alt="feed-image-4">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="like"> 20</div>
+                        <div><img src="images/comments.png" alt="comments"> 10</div>
+                        <div><img src="images/share.png" alt="share"> 5</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/member-5.png" alt="member-5"><i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="loadmore-button">Load More</button>
+
+        </div>
+
+        <!-- Right side bar  -->
+
+        <div class="right-side-bar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Willson Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>June</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Willson Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+
+            <img src="images/advertisement.png" alt="advertisement" class="sidebar-ads" srcset="">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="member-1" srcset="">
+                </div>
+                <p>Alison Mina</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="member-2" srcset="">
+                </div>
+                <p>Aston</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="member-3" srcset="">
+                </div>
+                <p>Samona</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright 2023 - HarshNavdiya Social Media</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
